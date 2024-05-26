@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Conversor de Temperatura</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="js/codigo.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Insira a temperatura em Celsius</h2>
+            
+            <input type="number" id="valor">
+            
+
+            <h2>Selecione o tipo de escala termométrica para conversão</h2>
+            
+            <select id="escala">
+                <option value="kel">Kelvin</option>
+                <option value="fah">Fahrenheit</option>
+            </select>
+
+            <input id="bt" type="submit" value="Converter" onclick="converter()">
+
+            <div id="resp"></div>
+        </div>
+    </div>
+</body>
+
+</html>
